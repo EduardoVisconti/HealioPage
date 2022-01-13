@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Dm Serif Display', 'Manrope', 'Neucha';
+    src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope&family=Neucha&display=swap') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #1f3c1f;
+}
+
+body {
+    background-color: white;
+}
+
+/* HEADER */
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 128px;
+    color: var(--green);
+}
+
+.img-logo {
+    width: 75px;
+}
+
+h1 {
+    font-family: 'DM Serif Display';
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Manrope';
+}
+
+.small-title {
+    font-family: 'Neucha';
+    font-size: 1.75rem;
+    padding: 22px 0 44px;
+}
+
+.small-title img {
+    height: 10px;
+}
+
+.banner-rigth {
+    max-width: 515px;
+    display: block;
+}
+
+/* /HEADER */
